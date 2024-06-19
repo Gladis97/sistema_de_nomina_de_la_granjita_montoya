@@ -1,13 +1,13 @@
 <?php session_start(); ?>
 <?php include 'header.php'; ?>
-<body class="hold-transition login-page">
-<div class="login-box">
+<body class="hold-transition login-page" id="cuerpoIndex" style="background-image: url('images/granjita_montoya.jpg');  background-size: cover;">
+<div class="login-box" style=" background-color: #3498db;">
   	<div class="login-logo">
   		<p id="date"></p>
       <p id="time" class="bold"></p>
   	</div>
   
-  	<div class="login-box-body">
+  	<div class="login-box-body" style=" background-color: #D6EAF8;">
     	<h4 class="login-box-msg">Ingrese su ID de Empleado</h4>
 
     	<form id="attendance">
