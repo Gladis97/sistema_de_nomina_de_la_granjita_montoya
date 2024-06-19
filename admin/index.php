@@ -5,13 +5,13 @@
   }
 ?>
 <?php include 'includes/header.php'; ?>
-<body class="hold-transition login-page">
-<div class="login-box">
+<body class="hold-transition login-page" style="background-image: url('../images/granjita_montoya.jpg');  background-size: cover;">
+<div class="login-box" style=" background-color: #3498db;">
   	<div class="login-logo">
   		<b>Ingreso Administrador</b>
   	</div>
   
-  	<div class="login-box-body">
+  	<div class="login-box-body" style=" background-color: #D6EAF8;">
     	<p class="login-box-msg">Ingresa para iniciar tu sesión</p>
 
     	<form action="login.php" method="POST">

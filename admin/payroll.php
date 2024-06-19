@@ -69,14 +69,14 @@
                 <thead>
                   <th>Nombre Empleado</th>
                   <th>ID Empleado</th>
-                  <th>Gross</th>
+                  <th>Bruto</th>
                   <th>Deducciones</th>
                   <th>Avance de Efectivo</th>
                   <th>Pago Neto</th>
                 </thead>
                 <tbody>
                   <?php
-                    $sql = "SELECT *, SUM(amount) as total_amount FROM deductions";
+                    $sql = "SELECT *, SUM(amount) as total_amount FROM deductions WHERE DESCRIPTION IN ('ISSS EMPLEADO','AFP EMPLEADO')";
                     $query = $conn->query($sql);
                     $drow = $query->fetch_assoc();
                     $deduction = $drow['total_amount'];

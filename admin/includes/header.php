@@ -42,7 +42,9 @@
   		}
       .bold{
         font-weight:bold;
-      }
+      } .body {
+		background-image: url('images/granjita_montoya.jpg');
+		}
 
      /* chart style*/
       #legend ul {
